@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Siswa | Pink Cute</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #fff1f7);
+            color: #5a3d4f;
+        }
+
+        /* NAV STICKY */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #ffc1dc;
+            padding: 12px 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(255, 182, 213, 0.5);
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 14px;
+            color: #5a3d4f;
+            background-color: #ffe0ef;
+            padding: 8px 14px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff7eb9;
+            color: white;
+        }
+
+        header {
+            background-color: #ffc1dc;
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        section {
+            background-color: #ffffff;
+            margin: 30px auto;
+            padding: 25px;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(255, 182, 213, 0.4);
+        }
+
+        section h2 {
+            color: #ff7eb9;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+            list-style: none;
+        }
+
+        .skills li {
+            background-color: #ffe0ef;
+            padding: 10px;
+            text-align: center;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+
+        .portfolio .card {
+            background-color: #fff5fa;
+            padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #8a5c72;
+        }
+
+        footer span {
+            color: #ff6fae;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAV DI ATAS -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skill</a>
+        <a href="#portfolio">Creation</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <img src="makarovcute.jpg" alt="Foto Siswa">
+        <h1>｡𖦹°‧ Andira Queenta ｡𖦹°‧</h1>
+        <p>Student | Creative | Innovative</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me 𖹭.ᐟ</h2>
+        <p>
+            I like to draw (mostly digital) but sometimes traditionally.
+            And I also have a favorite character, which is Vladimir Makarov
+            from Call Of Duty: Modern Warfare 2 & 3.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skill 𖹭.ᐟ</h2>
+        <ul>
+            <li>Drawing</li>
+            <li>Video Editing</li>
+            <li>Canva Design</li>
+            <li>Pro Gamer</li>
+            <li>Sleeping</li>
+            <li>Free Space</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Creation 𖹭.ᐟ</h2>
+
+        <div class="card">
+            <h3>Digital Drawing</h3>
+            <p>Makarov x Riley</p>
+            <img src="makaleycanon.jpeg">
+        </div>
+
+        <div class="card">
+            <h3>Digital Drawing</h3>
+            <p>Makarov x Riley</p>
+            <img src="makaley.jpeg">
+        </div>
+
+        <div class="card">
+            <h3>Digital Drawing</h3>
+            <p>Lewis Hamilton</p>
+            <img src="lewishamilton.jpeg">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>˗ˏˋ Contact ˎˊ˗</h2>
+        <p>Email: andiraqueentaw@email.com</p>
+        <p>Instagram: @andqu_</p>
+        <p>School: SMA Budi Luhur</p>
+    </section>
+
+    <footer>
+        © 2026 <span>Andira Queenta Wahyudi</span> | Makarov's wife
+    </footer>
+
+</body>
+</html>
